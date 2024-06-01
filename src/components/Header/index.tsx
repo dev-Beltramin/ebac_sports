@@ -17,7 +17,6 @@ const Header = () => {
     <S.Header>
       <h1>EBAC Sports</h1>
       <div>
-        {/* <span>{favoritos.length} favoritos</span> */}
         <img src={cesta} />
         <span>
           {itens.length} itens, valor total: {paraReal(valorTotal)}
